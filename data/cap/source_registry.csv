@@ -1,0 +1,6 @@
+source_id,title,url,document_type,jurisdiction,published_date,local_path,status
+CAP-PLANS,CAP Strategic Plans,https://agriculture.ec.europa.eu/cap-my-country/cap-strategic-plans_en,html,EU,,data/cap/raw/html/,planned
+CAP-INTERVENTIONS,Overview of EU countries' CAP Strategic Plans interventions,https://agriculture.ec.europa.eu/cap-my-country/cap-strategic-plans_en,xlsx,EU,2023-04-19,data/cap/raw/xlsx/overview-eu-countries-csp-interventions_en.xlsx,downloaded
+CAP-PERFORMANCE,CAP performance tables,https://agriculture.ec.europa.eu/cap-my-country/cap-strategic-plans_en,xlsx,EU,2025-10-22,data/cap/raw/xlsx/CAP performance tables.xlsx,downloaded
+EU-2021-2115,Regulation (EU) 2021/2115,https://eur-lex.europa.eu/eli/reg/2021/2115/oj/eng,html,EU,2021-12-02,data/cap/raw/html/,planned
+EU-2021-2116,Regulation (EU) 2021/2116,https://eur-lex.europa.eu/eli/reg/2021/2116/oj/eng,html,EU,2021-12-02,data/cap/raw/html/,planned

@@ -1,108 +1,37 @@
-/data/
-/plots/
-
+# Local Python and IDE state
+.venv/
 .idea/
+.jbeval/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
 
+# Secrets and local configuration
+.env
+*.key
+*token*.json
 config.py
 
+# Downloaded/generated research data
+data/cap/raw/**
+data/cap/extracted/**
+data/cap/final/**
+!data/cap/raw/.gitkeep
+!data/cap/extracted/.gitkeep
+!data/cap/final/.gitkeep
+!data/cap/source_registry.csv
+!data/cap/README.md
+legacy/data/
 
-#
-# Project specific excludes
-#
-
-*.csv 
+# Generated outputs
+plots/
 *.log
-*.key 
-*.env
-
-/.gradio/
-/.gradio/*
-
-med_news.txt
-
-example_sergio.sh
-example_sergio_summary.sh
-
-screenlog.0
-
-/prove/
-/prove/*
-
-*.json
-
-/__pycache__/
-/__pychache__/*
-
-/vast_api_logs/
-/vast_api_logs/*
-
-*.tpl
-
-
-./.settings/
-
-
-
-
 *.Rhistory
 *.Rproj
 *.RData
+.Rproj.user/
 
-tomcat
-
-#
-# Default excludes
-#
-
-# Binaries
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.war
-*.ear
-*.sar
-*.class
-
-# Maven 
-target/
-
-# IntelliJ project files 
-*.iml
-*.iws
-*.ipr
-.idea/
-
-# eclipse project file
-.settings/
-.classpath
-.project
-
-# NetBeans specific
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-
-
-# OS
+# OS/editor debris
 .DS_Store
-
-# Misc
 *.swp
-release.properties
-pom.xml.releaseBackup
-pom.xml.tag
-__pycache__
-
-.Rproj.user
-
-/bin/
-.ipynb_checkpoints/

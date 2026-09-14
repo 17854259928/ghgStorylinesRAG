@@ -1,0 +1,27 @@
+Extract one evidence-grounded record from this official EU CAP document fragment.
+
+Source ID: {source_id}
+Source URL: {source_url}
+Page: {page}
+
+Distinguish legal acts, strategic plans, interventions, planned budgets, actual
+expenditure, implementation outputs, and environmental/economic outcomes.
+
+Rules:
+- Use only the supplied text. Use null or [] for missing information.
+- Never report a target or planned allocation as an achieved result.
+- Preserve monetary units and state whether national co-financing is included.
+- Every quantitative claim must have a short verbatim evidence entry.
+- Return one JSON object only, without Markdown or explanatory prose.
+
+Required keys:
+document_type, policy_name, legal_identifier, jurisdiction,
+participating_countries, adoption_date, effective_date, implementation_start,
+implementation_end, instrument_type, target_sectors, target_gases,
+budget_amount, currency, funding_sources, national_cofinancing_included,
+planned_outputs, reported_outputs, reported_outcomes, evidence.
+
+Each evidence item must contain: field_name, evidence_text, page.
+
+Document fragment:
+{text}
